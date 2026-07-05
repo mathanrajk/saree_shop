@@ -1,0 +1,49 @@
+.header {
+    background-color: #424242;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #f8f2f2;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.navItem {
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    color: #fafafa;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    color: #fafafa;
+}
+.shoppingStyle{
+    color: #fafafa;
+    font-size: 1.2rem;
+}
+
+.shoppingStyle:hover {
+    color: #030100;
+}
